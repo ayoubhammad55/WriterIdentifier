@@ -1,0 +1,15 @@
+{
+  "unique_forms": {
+    "train": 441,
+    "validation": 113,
+    "test": 113
+  },
+  "form_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "cross_split_forms": 0,
+  "cross_split_form_ids": [],
+  "interpretation": "No form-level leakage detected."
+}

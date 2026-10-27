@@ -1,0 +1,45 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# IDE and OS
+.vscode/
+.idea/
+.vs/
+.DS_Store
+Thumbs.db
+
+# Datasets and handwritten images
+data/raw/
+data/processed/
+data/dataset/
+data/testcases/
+iam_xml/
+*.tif
+*.tiff
+*.xml
+
+# Model checkpoints and serialized models
+checkpoints/
+*.pkl
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# Generated experiment outputs (keep the curated results/ folder)
+outputs/
+wandb/
+*.log
+
+# Kaggle artifacts
+submission.csv

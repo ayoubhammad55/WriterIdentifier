@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "num_classes": 93,
+  "train_images": 441,
+  "validation_images": 113,
+  "test_images": 113,
+  "train_val_overlap": 0,
+  "train_test_overlap": 0,
+  "val_test_overlap": 0,
+  "split_manifest": "/kaggle/working/results/split_manifest.json",
+  "comparison_csv": "/kaggle/working/results/model_comparison_same_split.csv"
+}
