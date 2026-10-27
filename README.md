@@ -59,7 +59,7 @@ The results apply to the experimental protocol described below and should not be
 | Random seed | 42 |
 | Task | Closed-set writer identification |
 
-### Evaluation limitations
+### Evaluation Limitations
 
 This experiment uses a closed-set evaluation protocol: writers represented in the test set are also represented in the training set.
 
@@ -86,6 +86,7 @@ WriterIdentifier/
 │   ├── segmentation/
 │   └── utils/
 ├── .gitignore
+├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
@@ -96,20 +97,20 @@ The notebook contains the main experimental workflow. The `src/` directory conta
 
 Python 3.10 or 3.11 is a reasonable starting point, but compatibility has not been verified across all Python versions.
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/ayoubhammad55/WriterIdentifier.git
 cd WriterIdentifier
 ```
 
-### 2. Create a virtual environment
+### 2. Create a Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-### 3. Activate the environment
+### 3. Activate the Environment
 
 On Windows PowerShell:
 
@@ -123,7 +124,7 @@ On Linux or macOS:
 source .venv/bin/activate
 ```
 
-### 4. Install dependencies
+### 4. Install Dependencies
 
 ```bash
 python -m pip install --upgrade pip
@@ -162,7 +163,7 @@ According to the IAM website:
 
 Please consult the [official IAM Handwriting Database website](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database) for the current access conditions and terms of use.
 
-### Required dataset reference
+### Required Dataset Reference
 
 Marti, U.-V., & Bunke, H. (2002). The IAM-database: An English Sentence Database for Off-line Handwriting Recognition. *International Journal of Document Analysis and Recognition*, 5, 39–46.
 
@@ -196,6 +197,8 @@ Potential directions for further investigation include:
 
 ## License
 
-A license has not yet been specified for this repository.
+The original code in this repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full license text.
 
-Before distributing the project's code for reuse, consider adding an appropriate software license. Any code license should be kept separate from the IAM dataset's terms of use. Licensing this repository does not grant permission to redistribute or use the dataset beyond its permitted terms.
+The MIT License applies only to the code and other materials that the repository owner has the right to license. It does not apply to the IAM Handwriting Database, which is subject to its own terms of use.
+
+See the [official IAM Handwriting Database website](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database) for dataset access conditions and usage restrictions.
